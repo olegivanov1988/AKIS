@@ -1,0 +1,1543 @@
+object ASK_2: TASK_2
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  ClientHeight = 1080
+  ClientWidth = 1920
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Visible = True
+  WindowState = wsMaximized
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object sBevel1: TsBevel
+    Left = 82
+    Top = 155
+    Width = 130
+    Height = 186
+  end
+  object Shape12: TShape
+    Left = 127
+    Top = 552
+    Width = 64
+    Height = 4
+    Brush.Color = clBlack
+  end
+  object sLabel4: TsLabel
+    Left = 79
+    Top = 541
+    Width = 21
+    Height = 23
+    Caption = 'X2'
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+  end
+  object Shape1: TShape
+    Left = 1266
+    Top = 740
+    Width = 64
+    Height = 4
+    Brush.Color = clBlack
+  end
+  object sLabel1: TsLabel
+    Left = 1353
+    Top = 726
+    Width = 51
+    Height = 23
+    Caption = '13XP1'
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+  end
+  object Shape2: TShape
+    Left = 1265
+    Top = 844
+    Width = 64
+    Height = 4
+    Brush.Color = clBlack
+  end
+  object sLabel2: TsLabel
+    Left = 1352
+    Top = 830
+    Width = 51
+    Height = 23
+    Caption = '11XP1'
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+  end
+  object Shape3: TShape
+    Left = 1265
+    Top = 948
+    Width = 64
+    Height = 4
+    Brush.Color = clBlack
+  end
+  object sLabel3: TsLabel
+    Left = 1352
+    Top = 934
+    Width = 41
+    Height = 23
+    Caption = '9XP1'
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+  end
+  object Shape4: TShape
+    Left = 1081
+    Top = 740
+    Width = 65
+    Height = 4
+    Brush.Color = clBlack
+  end
+  object Shape5: TShape
+    Left = 729
+    Top = 844
+    Width = 417
+    Height = 4
+    Brush.Color = clBlack
+  end
+  object Shape6: TShape
+    Left = 1081
+    Top = 948
+    Width = 65
+    Height = 4
+    Brush.Color = clBlack
+  end
+  object sLabel5: TsLabel
+    Left = 683
+    Top = 849
+    Width = 21
+    Height = 23
+    Caption = 'X6'
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+  end
+  object Shape9: TShape
+    Left = 1077
+    Top = 588
+    Width = 4
+    Height = 364
+    Brush.Color = clBlack
+  end
+  object sLabel6: TsLabel
+    Left = 963
+    Top = 510
+    Width = 41
+    Height = 23
+    Caption = '5XP1'
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+  end
+  object Shape10: TShape
+    Left = 843
+    Top = 539
+    Width = 4
+    Height = 50
+    Brush.Color = clBlack
+  end
+  object Shape11: TShape
+    Left = 1546
+    Top = 538
+    Width = 4
+    Height = 52
+    Brush.Color = clBlack
+  end
+  object Shape13: TShape
+    Left = 310
+    Top = 588
+    Width = 1240
+    Height = 4
+    Brush.Color = clBlack
+  end
+  object Shape7: TShape
+    Left = 904
+    Top = 520
+    Width = 36
+    Height = 4
+    Brush.Color = clBlack
+  end
+  object sLabel8: TsLabel
+    Left = 1663
+    Top = 509
+    Width = 41
+    Height = 23
+    Caption = '7XP1'
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+  end
+  object Shape8: TShape
+    Left = 1605
+    Top = 519
+    Width = 36
+    Height = 4
+    Brush.Color = clBlack
+  end
+  object sLabel9: TsLabel
+    Left = 684
+    Top = 31
+    Width = 553
+    Height = 29
+    Caption = #1069#1082#1088#1072#1085' "2" '#1087#1088#1086#1074#1077#1088#1082#1080' '#1073#1083#1086#1082#1072' '#1071#1041#1043#1048'.469335.068'
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 6833674
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    UseSkinColor = False
+  end
+  object sLabel10: TsLabel
+    Left = 933
+    Top = 71
+    Width = 30
+    Height = 29
+    Caption = '22'
+    ParentFont = False
+    Visible = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = 6833674
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    UseSkinColor = False
+  end
+  object sButton1: TsButton
+    Left = 108
+    Top = 170
+    Width = 75
+    Height = 42
+    Caption = #1057#1080#1075#1085#1072#1083' '#1057#1050'1'#13#10#1047#1040#1055#1059#1057#1050
+    TabOrder = 0
+    OnClick = sButton1Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object sButton2: TsButton
+    Left = 110
+    Top = 227
+    Width = 75
+    Height = 42
+    Caption = #1057#1080#1075#1085#1072#1083' '#1057#1050'2'#13#10#1047#1040#1055#1059#1057#1050
+    TabOrder = 1
+    OnClick = sButton2Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object sButton3: TsButton
+    Left = 109
+    Top = 284
+    Width = 75
+    Height = 42
+    Caption = #1057#1080#1075#1085#1072#1083' '#1057#1050'3'#13#10#1047#1040#1055#1059#1057#1050
+    TabOrder = 2
+    OnClick = sButton3Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object sPanel2: TsPanel
+    Left = 306
+    Top = 197
+    Width = 185
+    Height = 140
+    BevelOuter = bvLowered
+    TabOrder = 3
+    SkinData.SkinSection = 'PANEL_LOW'
+    object sButton4: TsButton
+      Left = 8
+      Top = 7
+      Width = 169
+      Height = 46
+      Caption = #1047#1072#1074#1077#1088#1096#1080#1090#1100' '#1087#1088#1086#1074#1077#1088#1082#1091#13#10#1086#1090#1082#1083#1102#1095#1080#1090#1100' '#1087#1080#1090#1072#1085#1080#1077
+      Enabled = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clLime
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      OnClick = sButton4Click
+      SkinData.CustomFont = True
+      SkinData.SkinSection = 'BUTTON'
+    end
+    object sButton5: TsButton
+      Left = 8
+      Top = 59
+      Width = 169
+      Height = 33
+      Caption = #1055#1086#1074#1090#1086#1088#1080#1090#1100' '#1101#1082#1088#1072#1085' "2"'
+      Enabled = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+      OnClick = sButton5Click
+      SkinData.SkinSection = 'BUTTON'
+    end
+    object sButton6: TsButton
+      Left = 8
+      Top = 98
+      Width = 169
+      Height = 33
+      Caption = #1042#1077#1088#1085#1091#1090#1100#1089#1103' '#1082' '#1101#1082#1088#1072#1085#1091' "1"'
+      Enabled = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      OnClick = sButton6Click
+      SkinData.SkinSection = 'BUTTON'
+    end
+  end
+  object sPanel3: TsPanel
+    Left = 306
+    Top = 157
+    Width = 185
+    Height = 41
+    BevelOuter = bvLowered
+    Caption = #1055#1088#1086#1074#1077#1088#1082#1072' '#1073#1083#1086#1082#1072
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'PANEL_LOW'
+  end
+  object sPanel1: TsPanel
+    Left = 191
+    Top = 552
+    Width = 120
+    Height = 40
+    Align = alCustom
+    BevelOuter = bvLowered
+    Caption = #1059#1089#1080#1083#1080#1090#1077#1083#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    SkinData.SkinSection = 'PANEL_LOW'
+  end
+  object sPanel4: TsPanel
+    Left = 1146
+    Top = 720
+    Width = 120
+    Height = 40
+    Align = alCustom
+    BevelOuter = bvLowered
+    Caption = #1050#1086#1084#1087#1072#1088#1072#1090#1086#1088' 1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    SkinData.SkinSection = 'PANEL_LOW'
+  end
+  object sPanel5: TsPanel
+    Left = 1146
+    Top = 824
+    Width = 120
+    Height = 40
+    Align = alCustom
+    BevelOuter = bvLowered
+    Caption = #1050#1086#1084#1087#1072#1088#1072#1090#1086#1088' 2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+    SkinData.SkinSection = 'PANEL_LOW'
+  end
+  object sPanel6: TsPanel
+    Left = 1146
+    Top = 928
+    Width = 120
+    Height = 40
+    Align = alCustom
+    BevelOuter = bvLowered
+    Caption = #1050#1086#1084#1087#1072#1088#1072#1090#1086#1088' 3'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 8
+    SkinData.SkinSection = 'PANEL_LOW'
+  end
+  object sPanel7: TsPanel
+    Left = 1486
+    Top = 499
+    Width = 120
+    Height = 40
+    Align = alCustom
+    BevelOuter = bvLowered
+    Caption = #1060#1042#1063
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 9
+    SkinData.SkinSection = 'PANEL_LOW'
+  end
+  object sPanel8: TsPanel
+    Left = 783
+    Top = 500
+    Width = 120
+    Height = 40
+    Align = alCustom
+    BevelOuter = bvLowered
+    Caption = #1060#1053#1063
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 10
+    SkinData.SkinSection = 'PANEL_LOW'
+  end
+  object sPanel16: TsPanel
+    Left = 1365
+    Top = 504
+    Width = 115
+    Height = 30
+    BevelEdges = []
+    BevelOuter = bvNone
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 11
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel14: TsPanel
+    Left = 662
+    Top = 505
+    Width = 115
+    Height = 30
+    BevelEdges = []
+    BevelOuter = bvNone
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 12
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel21: TsPanel
+    Left = 1571
+    Top = 749
+    Width = 115
+    Height = 30
+    BevelEdges = []
+    BevelOuter = bvNone
+    Caption = 'X6 - U = '
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 13
+    Visible = False
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel22: TsPanel
+    Left = 1571
+    Top = 700
+    Width = 115
+    Height = 49
+    BevelEdges = [beBottom]
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    Caption = #1055#1086#1088#1086#1075' 1 - 0'#13#10
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 14
+    Visible = False
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel9: TsPanel
+    Left = 1571
+    Top = 853
+    Width = 115
+    Height = 30
+    BevelEdges = []
+    BevelOuter = bvNone
+    Caption = 'X6 - U = '
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 15
+    Visible = False
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel10: TsPanel
+    Left = 1571
+    Top = 804
+    Width = 115
+    Height = 49
+    BevelEdges = [beBottom]
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    Caption = #1055#1086#1088#1086#1075' 1 - 0'#13#10
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 16
+    Visible = False
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel11: TsPanel
+    Left = 1571
+    Top = 957
+    Width = 115
+    Height = 30
+    BevelEdges = []
+    BevelOuter = bvNone
+    Caption = 'X6 - U = '
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 17
+    Visible = False
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel12: TsPanel
+    Left = 1571
+    Top = 908
+    Width = 115
+    Height = 49
+    BevelEdges = [beBottom]
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    Caption = #1055#1086#1088#1086#1075' 1 - 0'#13#10
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 18
+    Visible = False
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel13: TsPanel
+    Left = 554
+    Top = 844
+    Width = 115
+    Height = 30
+    BevelEdges = []
+    BevelOuter = bvNone
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 19
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel15: TsPanel
+    Left = 554
+    Top = 814
+    Width = 115
+    Height = 30
+    BevelEdges = [beBottom]
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    Caption = 'U ='
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 20
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel17: TsPanel
+    Left = 108
+    Top = 546
+    Width = 20
+    Height = 20
+    BevelOuter = bvNone
+    TabOrder = 21
+    SkinData.SkinSection = 'CHECKBOX'
+    object sRadioButton3: TsRadioButton
+      Left = 2
+      Top = 1
+      Width = 20
+      Height = 20
+      Checked = True
+      TabOrder = 0
+      TabStop = True
+      SkinData.SkinSection = 'RADIOBUTTON'
+    end
+  end
+  object sPanel18: TsPanel
+    Left = 1327
+    Top = 731
+    Width = 20
+    Height = 20
+    BevelOuter = bvNone
+    TabOrder = 22
+    SkinData.SkinSection = 'CHECKBOX'
+    object sRadioButton1: TsRadioButton
+      Left = -2
+      Top = 1
+      Width = 20
+      Height = 20
+      Checked = True
+      TabOrder = 0
+      TabStop = True
+      SkinData.SkinSection = 'RADIOBUTTON'
+    end
+  end
+  object sPanel19: TsPanel
+    Left = 1326
+    Top = 835
+    Width = 20
+    Height = 20
+    BevelOuter = bvNone
+    TabOrder = 23
+    SkinData.SkinSection = 'CHECKBOX'
+    object sRadioButton2: TsRadioButton
+      Left = -2
+      Top = 1
+      Width = 20
+      Height = 20
+      Checked = True
+      TabOrder = 0
+      TabStop = True
+      SkinData.SkinSection = 'RADIOBUTTON'
+    end
+  end
+  object sPanel20: TsPanel
+    Left = 1326
+    Top = 939
+    Width = 20
+    Height = 20
+    BevelOuter = bvNone
+    TabOrder = 24
+    SkinData.SkinSection = 'CHECKBOX'
+    object sRadioButton4: TsRadioButton
+      Left = -2
+      Top = 1
+      Width = 20
+      Height = 20
+      Checked = True
+      TabOrder = 0
+      TabStop = True
+      SkinData.SkinSection = 'RADIOBUTTON'
+    end
+  end
+  object sPanel23: TsPanel
+    Left = 708
+    Top = 837
+    Width = 20
+    Height = 20
+    BevelOuter = bvNone
+    TabOrder = 25
+    SkinData.SkinSection = 'CHECKBOX'
+    object sRadioButton5: TsRadioButton
+      Left = 2
+      Top = 1
+      Width = 20
+      Height = 20
+      Checked = True
+      TabOrder = 0
+      TabStop = True
+      SkinData.SkinSection = 'RADIOBUTTON'
+    end
+  end
+  object sPanel24: TsPanel
+    Left = 69
+    Top = 493
+    Width = 115
+    Height = 30
+    BevelEdges = []
+    BevelKind = bkFlat
+    BevelOuter = bvLowered
+    Caption = 'U'#1074#1093#1086#1076#1085'. = 20'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 26
+    Visible = False
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'PANEL_LOW'
+  end
+  object iScope2: TiScope
+    Left = 614
+    Top = 118
+    Width = 400
+    Height = 330
+    SamplesPerSecond = 4166
+    AutoFrameRate = False
+    UpdateFrameRate = 1
+    HideControlPanels = True
+    PrintMarginLeft = 1.000000000000000000
+    PrintMarginTop = 1.000000000000000000
+    PrintMarginRight = 1.000000000000000000
+    PrintMarginBottom = 1.000000000000000000
+    PrintDocumentName = 'Untitled'
+    Channels = <
+      item
+        VoltsPerDivision = 5.000000000000000000
+        Coupling = isccDC
+        TitleText = 'CH1'
+        Color = 4259584
+        TraceLineWidth = 2
+        RefLineShow = False
+      end>
+    Display = <
+      item
+      end>
+    TimeBase = <
+      item
+        SecPerDiv = 0.010000000000000000
+      end>
+    Trigger = <
+      item
+        Level = 50.000000000000000000
+        PositiveSlope = True
+        SourceIndex = 0
+        Auto = True
+      end>
+  end
+  object iScope1: TiScope
+    Left = 1317
+    Top = 120
+    Width = 400
+    Height = 330
+    SamplesPerSecond = 4166
+    AutoFrameRate = False
+    UpdateFrameRate = 1
+    HideControlPanels = True
+    PrintMarginLeft = 1.000000000000000000
+    PrintMarginTop = 1.000000000000000000
+    PrintMarginRight = 1.000000000000000000
+    PrintMarginBottom = 1.000000000000000000
+    PrintDocumentName = 'Untitled'
+    Channels = <
+      item
+        VoltsPerDivision = 5.000000000000000000
+        Coupling = isccDC
+        TitleText = 'CH1'
+        Color = 4259584
+        TraceLineWidth = 2
+        RefLineShow = False
+      end>
+    Display = <
+      item
+      end>
+    TimeBase = <
+      item
+        SecPerDiv = 0.001000000000000000
+      end>
+    Trigger = <
+      item
+        Level = 50.000000000000000000
+        PositiveSlope = True
+        SourceIndex = 0
+        Auto = True
+      end>
+  end
+  object iScope3: TiScope
+    Left = 127
+    Top = 638
+    Width = 400
+    Height = 330
+    SamplesPerSecond = 1563
+    AutoFrameRate = False
+    UpdateFrameRate = 1
+    HideControlPanels = True
+    PrintMarginLeft = 1.000000000000000000
+    PrintMarginTop = 1.000000000000000000
+    PrintMarginRight = 1.000000000000000000
+    PrintMarginBottom = 1.000000000000000000
+    PrintDocumentName = 'Untitled'
+    Channels = <
+      item
+        VoltsPerDivision = 5.000000000000000000
+        Coupling = isccDC
+        TitleText = 'CH1'
+        Color = 4259584
+        TraceLineWidth = 2
+        RefLineShow = False
+      end>
+    Display = <
+      item
+      end>
+    TimeBase = <
+      item
+        SecPerDiv = 0.001000000000000000
+      end>
+    Trigger = <
+      item
+        Level = 50.000000000000000000
+        PositiveSlope = True
+        SourceIndex = 0
+        Auto = True
+      end>
+  end
+  object sPanel33: TsPanel
+    Left = 127
+    Top = 967
+    Width = 400
+    Height = 31
+    TabOrder = 30
+    SkinData.SkinSection = 'TOOLBAR'
+    object sListBox1: TsListBox
+      Left = 71
+      Top = 5
+      Width = 57
+      Height = 20
+      Color = 15921906
+      ExtendedSelect = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Items.Strings = (
+        '0,1 '#1089
+        '50 '#1084#1089
+        '20 '#1084#1089
+        '10 '#1084#1089
+        '5 '#1084#1089
+        '2 '#1084#1089
+        '1 '#1084#1089
+        '0,5 '#1084#1089
+        '0,2 '#1084#1089
+        '0,1 '#1084#1089
+        '50 '#1084#1082#1089
+        '20 '#1084#1082#1089
+        '10 '#1084#1082#1089
+        '5 '#1084#1082#1089
+        '2 '#1084#1082#1089
+        '1 '#1084#1082#1089
+        '0,5 '#1084#1082#1089
+        '0,2 '#1084#1082#1089
+        '0,1 '#1084#1082#1089)
+      ParentFont = False
+      ScrollWidth = -1
+      TabOrder = 0
+      OnClick = sListBox1Click
+      OnMouseDown = sListBox1MouseDown
+      BoundLabel.Active = True
+      BoundLabel.Caption = 'SEC/DIV'
+      BoundLabel.Indent = 0
+      BoundLabel.Font.Charset = DEFAULT_CHARSET
+      BoundLabel.Font.Color = 16773855
+      BoundLabel.Font.Height = -11
+      BoundLabel.Font.Name = 'Tahoma'
+      BoundLabel.Font.Style = []
+      BoundLabel.Layout = sclLeft
+      BoundLabel.MaxWidth = 0
+      BoundLabel.UseSkinColor = True
+      OnVScroll = sListBox1VScroll
+      SkinData.SkinSection = 'EDIT'
+    end
+    object sListBox2: TsListBox
+      Left = 192
+      Top = 5
+      Width = 57
+      Height = 20
+      Color = 15921906
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Items.Strings = (
+        '50 '#1042
+        '20 '#1042
+        '10 '#1042
+        '5 '#1042
+        '2 '#1042
+        '1 '#1042
+        '500 '#1084#1042
+        '200 '#1084#1042
+        '100 '#1084#1042
+        '50 '#1084#1042
+        '20 '#1084#1042
+        '10 '#1084#1042
+        '5 '#1084#1042
+        '2 '#1084#1042
+        '1 '#1084#1042
+        '100 '#1084#1082#1042
+        '50 '#1084#1082#1042
+        '20 '#1084#1082#1042
+        '10 '#1084#1082#1042
+        '5 '#1084#1082#1042
+        '2 '#1084#1082#1042
+        '1 '#1084#1082#1042)
+      ParentFont = False
+      TabOrder = 1
+      OnClick = sListBox2Click
+      OnMouseDown = sListBox1MouseDown
+      BoundLabel.Active = True
+      BoundLabel.Caption = 'Volts/DIV'
+      BoundLabel.Indent = 0
+      BoundLabel.Font.Charset = DEFAULT_CHARSET
+      BoundLabel.Font.Color = 16773855
+      BoundLabel.Font.Height = -11
+      BoundLabel.Font.Name = 'Tahoma'
+      BoundLabel.Font.Style = []
+      BoundLabel.Layout = sclLeft
+      BoundLabel.MaxWidth = 0
+      BoundLabel.UseSkinColor = True
+      OnVScroll = sListBox2VScroll
+      SkinData.SkinSection = 'EDIT'
+    end
+    object sListBox3: TsListBox
+      Left = 312
+      Top = 5
+      Width = 57
+      Height = 20
+      Color = 15921906
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Items.Strings = (
+        'DC'
+        'AC')
+      ParentFont = False
+      TabOrder = 2
+      OnClick = sListBox3Click
+      OnMouseDown = sListBox1MouseDown
+      BoundLabel.Active = True
+      BoundLabel.Caption = 'Coupling'
+      BoundLabel.Indent = 0
+      BoundLabel.Font.Charset = DEFAULT_CHARSET
+      BoundLabel.Font.Color = 16773855
+      BoundLabel.Font.Height = -11
+      BoundLabel.Font.Name = 'Tahoma'
+      BoundLabel.Font.Style = []
+      BoundLabel.Layout = sclLeft
+      BoundLabel.MaxWidth = 0
+      BoundLabel.UseSkinColor = True
+      OnVScroll = sListBox3VScroll
+      SkinData.SkinSection = 'EDIT'
+    end
+  end
+  object sPanel27: TsPanel
+    Left = 614
+    Top = 449
+    Width = 400
+    Height = 31
+    TabOrder = 31
+    SkinData.SkinSection = 'TOOLBAR'
+    object sListBox4: TsListBox
+      Left = 71
+      Top = 5
+      Width = 57
+      Height = 20
+      Color = 15921906
+      ExtendedSelect = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Items.Strings = (
+        '0,1 '#1089
+        '50 '#1084#1089
+        '20 '#1084#1089
+        '10 '#1084#1089
+        '5 '#1084#1089
+        '2 '#1084#1089
+        '1 '#1084#1089
+        '0,5 '#1084#1089
+        '0,2 '#1084#1089
+        '0,1 '#1084#1089
+        '50 '#1084#1082#1089
+        '20 '#1084#1082#1089
+        '10 '#1084#1082#1089
+        '5 '#1084#1082#1089
+        '2 '#1084#1082#1089
+        '1 '#1084#1082#1089
+        '0,5 '#1084#1082#1089
+        '0,2 '#1084#1082#1089
+        '0,1 '#1084#1082#1089)
+      ParentFont = False
+      ScrollWidth = -1
+      TabOrder = 0
+      OnClick = sListBox4Click
+      OnMouseDown = sListBox1MouseDown
+      BoundLabel.Active = True
+      BoundLabel.Caption = 'SEC/DIV'
+      BoundLabel.Indent = 0
+      BoundLabel.Font.Charset = DEFAULT_CHARSET
+      BoundLabel.Font.Color = 16773855
+      BoundLabel.Font.Height = -11
+      BoundLabel.Font.Name = 'Tahoma'
+      BoundLabel.Font.Style = []
+      BoundLabel.Layout = sclLeft
+      BoundLabel.MaxWidth = 0
+      BoundLabel.UseSkinColor = True
+      OnVScroll = sListBox4VScroll
+      SkinData.SkinSection = 'EDIT'
+    end
+    object sListBox5: TsListBox
+      Left = 192
+      Top = 5
+      Width = 57
+      Height = 20
+      Color = 15921906
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Items.Strings = (
+        '50 '#1042
+        '20 '#1042
+        '10 '#1042
+        '5 '#1042
+        '2 '#1042
+        '1 '#1042
+        '500 '#1084#1042
+        '200 '#1084#1042
+        '100 '#1084#1042
+        '50 '#1084#1042
+        '20 '#1084#1042
+        '10 '#1084#1042
+        '5 '#1084#1042
+        '2 '#1084#1042
+        '1 '#1084#1042
+        '100 '#1084#1082#1042
+        '50 '#1084#1082#1042
+        '20 '#1084#1082#1042
+        '10 '#1084#1082#1042
+        '5 '#1084#1082#1042
+        '2 '#1084#1082#1042
+        '1 '#1084#1082#1042)
+      ParentFont = False
+      TabOrder = 1
+      OnClick = sListBox5Click
+      OnMouseDown = sListBox1MouseDown
+      BoundLabel.Active = True
+      BoundLabel.Caption = 'Volts/DIV'
+      BoundLabel.Indent = 0
+      BoundLabel.Font.Charset = DEFAULT_CHARSET
+      BoundLabel.Font.Color = 16773855
+      BoundLabel.Font.Height = -11
+      BoundLabel.Font.Name = 'Tahoma'
+      BoundLabel.Font.Style = []
+      BoundLabel.Layout = sclLeft
+      BoundLabel.MaxWidth = 0
+      BoundLabel.UseSkinColor = True
+      OnVScroll = sListBox5VScroll
+      SkinData.SkinSection = 'EDIT'
+    end
+    object sListBox6: TsListBox
+      Left = 312
+      Top = 5
+      Width = 57
+      Height = 20
+      Color = 15921906
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Items.Strings = (
+        'DC'
+        'AC')
+      ParentFont = False
+      TabOrder = 2
+      OnClick = sListBox6Click
+      OnMouseDown = sListBox1MouseDown
+      BoundLabel.Active = True
+      BoundLabel.Caption = 'Coupling'
+      BoundLabel.Indent = 0
+      BoundLabel.Font.Charset = DEFAULT_CHARSET
+      BoundLabel.Font.Color = 16773855
+      BoundLabel.Font.Height = -11
+      BoundLabel.Font.Name = 'Tahoma'
+      BoundLabel.Font.Style = []
+      BoundLabel.Layout = sclLeft
+      BoundLabel.MaxWidth = 0
+      BoundLabel.UseSkinColor = True
+      OnVScroll = sListBox6VScroll
+      SkinData.SkinSection = 'EDIT'
+    end
+  end
+  object sPanel28: TsPanel
+    Left = 942
+    Top = 512
+    Width = 20
+    Height = 20
+    BevelOuter = bvNone
+    TabOrder = 32
+    SkinData.SkinSection = 'CHECKBOX'
+    object sRadioButton8: TsRadioButton
+      Left = -1
+      Top = 1
+      Width = 20
+      Height = 20
+      Checked = True
+      TabOrder = 0
+      TabStop = True
+      SkinData.SkinSection = 'RADIOBUTTON'
+    end
+  end
+  object sPanel30: TsPanel
+    Left = 1317
+    Top = 449
+    Width = 400
+    Height = 31
+    TabOrder = 33
+    SkinData.SkinSection = 'TOOLBAR'
+    object sListBox7: TsListBox
+      Left = 71
+      Top = 5
+      Width = 57
+      Height = 20
+      Color = 15921906
+      ExtendedSelect = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Items.Strings = (
+        '0,1 '#1089
+        '50 '#1084#1089
+        '20 '#1084#1089
+        '10 '#1084#1089
+        '5 '#1084#1089
+        '2 '#1084#1089
+        '1 '#1084#1089
+        '0,5 '#1084#1089
+        '0,2 '#1084#1089
+        '0,1 '#1084#1089
+        '50 '#1084#1082#1089
+        '20 '#1084#1082#1089
+        '10 '#1084#1082#1089
+        '5 '#1084#1082#1089
+        '2 '#1084#1082#1089
+        '1 '#1084#1082#1089
+        '0,5 '#1084#1082#1089
+        '0,2 '#1084#1082#1089
+        '0,1 '#1084#1082#1089)
+      ParentFont = False
+      ScrollWidth = -1
+      TabOrder = 0
+      OnClick = sListBox7Click
+      OnMouseDown = sListBox1MouseDown
+      BoundLabel.Active = True
+      BoundLabel.Caption = 'SEC/DIV'
+      BoundLabel.Indent = 0
+      BoundLabel.Font.Charset = DEFAULT_CHARSET
+      BoundLabel.Font.Color = 16773855
+      BoundLabel.Font.Height = -11
+      BoundLabel.Font.Name = 'Tahoma'
+      BoundLabel.Font.Style = []
+      BoundLabel.Layout = sclLeft
+      BoundLabel.MaxWidth = 0
+      BoundLabel.UseSkinColor = True
+      OnVScroll = sListBox7VScroll
+      SkinData.SkinSection = 'EDIT'
+    end
+    object sListBox8: TsListBox
+      Left = 192
+      Top = 5
+      Width = 57
+      Height = 20
+      Color = 15921906
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Items.Strings = (
+        '50 '#1042
+        '20 '#1042
+        '10 '#1042
+        '5 '#1042
+        '2 '#1042
+        '1 '#1042
+        '500 '#1084#1042
+        '200 '#1084#1042
+        '100 '#1084#1042
+        '50 '#1084#1042
+        '20 '#1084#1042
+        '10 '#1084#1042
+        '5 '#1084#1042
+        '2 '#1084#1042
+        '1 '#1084#1042
+        '100 '#1084#1082#1042
+        '50 '#1084#1082#1042
+        '20 '#1084#1082#1042
+        '10 '#1084#1082#1042
+        '5 '#1084#1082#1042
+        '2 '#1084#1082#1042
+        '1 '#1084#1082#1042)
+      ParentFont = False
+      TabOrder = 1
+      OnClick = sListBox8Click
+      OnMouseDown = sListBox1MouseDown
+      BoundLabel.Active = True
+      BoundLabel.Caption = 'Volts/DIV'
+      BoundLabel.Indent = 0
+      BoundLabel.Font.Charset = DEFAULT_CHARSET
+      BoundLabel.Font.Color = 16773855
+      BoundLabel.Font.Height = -11
+      BoundLabel.Font.Name = 'Tahoma'
+      BoundLabel.Font.Style = []
+      BoundLabel.Layout = sclLeft
+      BoundLabel.MaxWidth = 0
+      BoundLabel.UseSkinColor = True
+      OnVScroll = sListBox8VScroll
+      SkinData.SkinSection = 'EDIT'
+    end
+    object sListBox9: TsListBox
+      Left = 312
+      Top = 5
+      Width = 57
+      Height = 20
+      Color = 15921906
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      Items.Strings = (
+        'DC'
+        'AC')
+      ParentFont = False
+      TabOrder = 2
+      OnClick = sListBox9Click
+      OnMouseDown = sListBox1MouseDown
+      BoundLabel.Active = True
+      BoundLabel.Caption = 'Coupling'
+      BoundLabel.Indent = 0
+      BoundLabel.Font.Charset = DEFAULT_CHARSET
+      BoundLabel.Font.Color = 16773855
+      BoundLabel.Font.Height = -11
+      BoundLabel.Font.Name = 'Tahoma'
+      BoundLabel.Font.Style = []
+      BoundLabel.Layout = sclLeft
+      BoundLabel.MaxWidth = 0
+      BoundLabel.UseSkinColor = True
+      OnVScroll = sListBox9VScroll
+      SkinData.SkinSection = 'EDIT'
+    end
+  end
+  object sPanel29: TsPanel
+    Left = 1644
+    Top = 511
+    Width = 20
+    Height = 20
+    BevelOuter = bvNone
+    TabOrder = 34
+    SkinData.SkinSection = 'CHECKBOX'
+    object sRadioButton9: TsRadioButton
+      Left = -2
+      Top = 1
+      Width = 20
+      Height = 20
+      Checked = True
+      TabOrder = 0
+      TabStop = True
+      SkinData.SkinSection = 'RADIOBUTTON'
+    end
+  end
+  object sButton7: TsButton
+    Left = 306
+    Top = 360
+    Width = 75
+    Height = 40
+    Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100' '#1086#1090#1095#1105#1090
+    Enabled = False
+    TabOrder = 35
+    OnClick = sButton7Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object sButton8: TsButton
+    Left = 416
+    Top = 360
+    Width = 75
+    Height = 40
+    Caption = #1055#1086#1082#1072#1079#1072#1090#1100' '#1086#1090#1095#1105#1090
+    Enabled = False
+    TabOrder = 36
+    OnClick = sButton8Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object sPanel25: TsPanel
+    Left = 1419
+    Top = 700
+    Width = 115
+    Height = 30
+    BevelEdges = []
+    BevelOuter = bvNone
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 37
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel26: TsPanel
+    Left = 1419
+    Top = 731
+    Width = 115
+    Height = 49
+    BevelEdges = [beBottom]
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    Caption = #1055#1086#1088#1086#1075' 1 - 0'#13#10'X6 - U = '
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 38
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel31: TsPanel
+    Left = 1419
+    Top = 804
+    Width = 115
+    Height = 30
+    BevelEdges = []
+    BevelOuter = bvNone
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 39
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel32: TsPanel
+    Left = 1419
+    Top = 835
+    Width = 115
+    Height = 49
+    BevelEdges = [beBottom]
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    Caption = #1055#1086#1088#1086#1075' 1 - 0'#13#10'X6 - U = '
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 40
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel34: TsPanel
+    Left = 1419
+    Top = 908
+    Width = 115
+    Height = 30
+    BevelEdges = []
+    BevelOuter = bvNone
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 41
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object sPanel35: TsPanel
+    Left = 1419
+    Top = 939
+    Width = 115
+    Height = 49
+    BevelEdges = [beBottom]
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    Caption = #1055#1086#1088#1086#1075' 1 - 0'#13#10'X6 - U = '
+    Color = clWindowText
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWhite
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 42
+    SkinData.CustomColor = True
+    SkinData.CustomFont = True
+    SkinData.SkinSection = 'CHECKBOX'
+  end
+  object btnAuto: TsButton
+    Left = 69
+    Top = 91
+    Width = 169
+    Height = 33
+    Caption = #1040#1074#1090#1086#1084#1072#1090#1080#1095#1077#1089#1082#1072#1103' '#1087#1088#1086#1074#1077#1088#1082#1072
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 43
+    OnClick = btnAutoClick
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Timer1Timer
+    Left = 48
+    Top = 24
+  end
+  object timeAuto: TTimer
+    Enabled = False
+    OnTimer = timeAutoTimer
+    Left = 80
+    Top = 24
+  end
+  object timeZader: TTimer
+    Enabled = False
+    OnTimer = timeZaderTimer
+    Left = 112
+    Top = 24
+  end
+end
